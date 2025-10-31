@@ -1,0 +1,12 @@
+{
+    "device_index": 0,
+    "energy_joules": 44944.158,
+    "duration_seconds": 213.21297907829285,
+    "nvml_available": true,
+    "error": null,
+    "model": "Qwen2.5-Ins-7B",
+    "scenario": "codegeneration",
+    "problems_total": 175,
+    "problems_run": 175,
+    "timestamp_utc": "2025-10-31T14:16:26.416759+00:00"
+}

@@ -167,7 +167,6 @@ logs/
 livecodebench_outputs/
 benchmark_results/
 cache/
-output/
 
 # Data directories
 lora_simple/data/opencodeinstruct_full/*
