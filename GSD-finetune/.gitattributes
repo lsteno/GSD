@@ -1,0 +1,29 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Large binary files (models, datasets) - treat as binary, no diffing
+*.safetensors binary
+*.bin binary
+*.pt binary
+*.pth binary
+*.h5 binary
+*.pb binary
+*.onnx binary
+*.pkl binary
+
+# JSON files - ensure LF endings, enable diffing
+*.json text eol=lf
+
+# Python files - ensure LF endings
+*.py text eol=lf
+
+# Shell scripts - ensure LF endings, make executable
+*.sh text eol=lf
+*.slurm text eol=lf
+
+# Markdown files
+*.md text eol=lf
+
+# YAML files
+*.yml text eol=lf
+*.yaml text eol=lf

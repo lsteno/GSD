@@ -1,0 +1,61 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model files and caches (large files)
+model_cache/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.h5
+*.pb
+*.onnx
+
+# Training outputs
+qwen2-7b-lora-opencodeinstruct/
+outputs/
+checkpoints/
+runs/
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Evaluation outputs
+livecodebench_outputs/
+benchmark_results/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+lora_simple/data/opencodeinstruct_full/*
